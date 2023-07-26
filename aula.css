@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+    
+  
+  /* Estilos gerais */
+  body {
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    background: #f2f2f2;
+    margin: 0;
+    
+  }
+  
+  nav.minhanavegacao {
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  /* Estilos da classe .frase */
+  .frase {
+    background-color: #ccc;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    justify-content: center;
+  }
+  
+  /* Estilos do menu */
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 26px;
+  }
+
+  .imagem1 {
+    
+    background-image: url(../aula-1/img/image1.jpg);
+    background-size: contain;
+    width:100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    margin-right: 80px;   
+      
+  }
+
+  .imagem2 {
+    background-image: url(../aula-1/img/image2.jpg);
+    background-size: contain;
+    width:100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    
+    }
+
+  
+    .frasesupeior {
+      margin-top: 10px;
+    }
+    
+    .frase-menor {
+      display: flex;
+      align-items: flex-end;
+      padding: 10px;
+    }
+
+    .frase-meio {
+      margin-bottom: 20px;
+
+    }
+
+    .frase-meio h2 {
+      font-size: 40px;
+      margin-bottom: 27px;
+    }
+
+    .container {
+        display:flex;
+        width: 100%;
+        height:550px
+        background-size:cover;
+        
+    }
